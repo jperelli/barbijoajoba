@@ -1,0 +1,15 @@
+type Position {
+  lat: Float!
+  lon: Float!
+}
+
+type Report {
+  createdAt: String!
+  name: String!
+  comment: String!
+  position: Position!
+}
+
+type Query {
+  reports: [Report!]!
+}

@@ -1,0 +1,33 @@
+.githubcorner:hover .octoarm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width: 500px) {
+  .githubcorner:hover .octoaarm {
+    animation: none;
+  }
+  .githubcorner .octoaarm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+.githubcorner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10000;
+  opacity: 0.6;
+}
