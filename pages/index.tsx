@@ -16,8 +16,8 @@ export default function Index() {
         <meta property="og:description" content="App para marcar en un mapa los negocios donde te atienden con el barbijo ajoba de la nariz" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://barbijoajoba.vercel.app/og.png" />
-        <meta property="og:image:width" content="550" />
-        <meta property="og:image:height" content="254" />
+        <meta property="og:image:width" content="620" />
+        <meta property="og:image:height" content="555" />
       </Head>
       <Githubcorner />
       <Map />
